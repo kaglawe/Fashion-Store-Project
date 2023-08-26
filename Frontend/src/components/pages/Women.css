@@ -1,0 +1,118 @@
+/* WOMEN CSS */
+/* women.css */
+
+/* Containers */
+.women-container, .Accessories-container, .Kid-container {
+  padding: 20px;
+}
+
+/* Product Grid */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Product Card */
+.product-card {
+  flex: 20%;
+  padding: 10px;
+  border: 1px solid #6f6f6f;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+
+.buy-button, .cart-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.buy-button:hover, .cart-button:hover {
+  background-color: #0056b3;
+}
+
+/* Size Dropdown */
+.size-dropdown {
+  margin-top: 10px;
+}
+
+.size-dropdown label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.size-dropdown select {
+  width: 45%;
+  padding: 3px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  color: #333;
+}
+
+.size-dropdown select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Buy and Cart Buttons */
+.buy-button, .cart-button {
+  width: 45%;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buy-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.cart-button {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Big Header */
+.header {
+  background-color: #4684c2;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.section-title {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+

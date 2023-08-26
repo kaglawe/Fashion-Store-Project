@@ -1,0 +1,136 @@
+
+
+
+#brandname{
+    font-size: 60px; font-weight: 600; font-family: 'Oswald', sans-serif; padding-right: 50px;
+    color: #090909;
+  text-shadow:
+    0 0 7px #7a1a1a,
+    0 0 10px hsl(0, 57%, 29%),
+    0 0 25px  #fff,
+    0 0 151px rgb(13, 14, 14);
+    padding: 0;
+    margin: 0;
+}
+
+/* CombinedCSS.css */
+
+/* Navigation Bar */
+/* Navigation Bar */
+.navbar {
+    background-color: #ffddc9db;
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 10px; /* Adjust as needed */
+    padding-bottom: 10px; /* Adjust as needed */
+}
+
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .navbar-toggler-icon {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .buttons .btn  {
+    font-weight: 500;
+  }
+  
+  .buttons .btn i {
+    margin-right: 0.5rem;
+  }
+  
+  /* Optional: Adjust button colors */
+  .buttons .btn-outline-dark {
+    border-color: #333;
+    color: #333;
+  }
+  
+  .buttons .btn-outline-dark:hover {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  /* CombinedCSS.css */
+
+/* Navigation Bar */
+
+  /* Navigation Links */
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+    
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Navigation Buttons */
+  .navbar-nav .nav-item {
+    margin: 0 0.5rem;
+  }
+  
+  .buttons .btn {
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .buttons .btn i {
+    margin-right: 0.5rem;
+  }
+  
+  /* Button Styles */
+  .buttons .btn.btn-outline-dark {
+    border-color: #333;
+    color: #333;
+  }
+  
+  .buttons .btn.btn-outline-dark:hover {
+    background-color: #333;
+    border-color: #333;
+    color: white;
+  }
+  
+  .buttons .btn.btn-outline-dark:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .buttons .btn.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+  }
+  
+  .buttons .btn.btn-outline-primary:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+  }
+  
+  .buttons .btn.btn-outline-primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  
+
+  
+  
+  

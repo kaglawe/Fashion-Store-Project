@@ -1,0 +1,45 @@
+/* HomePage.css */
+.home-page {
+   align-items: center; 
+   padding-top: 6%;
+   
+}
+
+.flex-container {
+    display: flex;
+    
+    align-items: center;
+    margin-top: 20px;
+}
+
+.flex-item {
+    text-align: center;
+}
+
+.image {
+    width: 380px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* HomePage.css */
+.button {
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 0; /* Adjust vertical padding as needed */
+    width: 150px; /* Set a fixed width for all buttons */
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the text horizontally */
+}
+
+/* Apply hover effect */
+.button:hover {
+    background-color: #246fa0;
+    color: #f0f0f0;
+}
